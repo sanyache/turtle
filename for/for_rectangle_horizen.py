@@ -17,11 +17,12 @@ t.forward(800)
 t.up()
 t.setheading(0)
 t.width(3)
-t.color('black', 'blue')
 t.goto(-400, 0)
+colors = ['blue', 'green', 'orange', 'dark magenta', 'yellow']
 # малювання квадрата
 for j in range(5):
     t.down()
+    t.color('black', colors[j])
     t.begin_fill()
     for i in range(4):
         t.forward(100)
