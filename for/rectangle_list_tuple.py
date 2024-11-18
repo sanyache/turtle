@@ -1,6 +1,5 @@
 import turtle as t
 import random
-from pydoc import replace
 
 t.title('circle')
 t.setup(800, 800)
