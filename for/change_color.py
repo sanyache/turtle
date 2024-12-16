@@ -21,7 +21,7 @@ t.down()
 colors = ['red', 'blue', 'magenta', 'white', 'lime green', 'indigo']
 # малюємо прямокутник
 for degree in range(0, 360, 40):
-    t.color('black', random.choice(colors))
+    t.color('black', colors[degree//40%6])
     t.down()
     t.begin_fill()
     t.setheading(degree)
