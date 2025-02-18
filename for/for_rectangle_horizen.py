@@ -1,6 +1,6 @@
 import turtle as t
 
-t.title('circle')
+t.title('rectangles')
 # задаємо параметри вікна
 t.setup(840, 802)
 t.color('brown', 'orange')
